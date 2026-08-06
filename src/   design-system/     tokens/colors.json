@@ -1,0 +1,2431 @@
+{
+  "Background": {
+    "background_primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196108818054,
+          0.9529411792755127,
+          0.9686274528503418
+        ],
+        "alpha": 1,
+        "hex": "#F2F3F7"
+      },
+      "$description": "Используем на экранах с преимущественно карточным контентом",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2520",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a944908a6ea5a1b235b98f2f80d30de8140533e0/-1:-1",
+          "targetVariableName": "Other/anti_flash_white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "background_secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Используем на экранах со списками, и прочих экранах,преимущественно без карточек",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2521",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "background_surface": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Данный токен используется для фона карточек и всевозможных плашек",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2522",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "background_surface_secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.45490196347236633,
+          0.4156862795352936,
+          0.6392157077789307
+        ],
+        "alpha": 0.07999999821186066,
+        "hex": "#746AA3"
+      },
+      "$description": "Данный токен используется для фона карточек и всевозможных плашек на белом фоне",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:18757:29463",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+          "targetVariableName": "Cross/ultra_violet_8",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "background_modal": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Боттом-шиты, диалоговые окна итд",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2523",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Badge": {
+    "badge_info": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.3803921639919281,
+          0.43921568989753723
+        ],
+        "alpha": 1,
+        "hex": "#FF6170"
+      },
+      "$description": "Цвет фона для инфо счетчика",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2863:19359",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8d6654171c08d985b081913aea2b2e51e5b53027/-1:-1",
+          "targetVariableName": "Cross/bright_pink",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "badge_award": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.29019609093666077,
+          0.8392156958580017
+        ],
+        "alpha": 1,
+        "hex": "#634AD6"
+      },
+      "$description": "Цвет фона для счетчика наград",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7627:4759",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+          "targetVariableName": "Cross/majorelle_blue",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Buttons": {
+    "Primary": {
+      "button_primary_background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет фона Primary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2307:2801",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "button_primary_content": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Цвет контента внутри Primary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:8198:17633",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "Secondary": {
+      "button_secondary_background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.45490196347236633,
+            0.4156862795352936,
+            0.6392157077789307
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#746AA3"
+        },
+        "$description": "Цвет фона secondary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2307:2802",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+            "targetVariableName": "Cross/ultra_violet_8",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "button_secondary_content": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет контента внутри Secondary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:8198:19254",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "Brand": {
+      "button_brand_background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.3803921639919281,
+            0.43921568989753723
+          ],
+          "alpha": 1,
+          "hex": "#FF6170"
+        },
+        "$description": "Цвет фона Primary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:11903:23841",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:8d6654171c08d985b081913aea2b2e51e5b53027/-1:-1",
+            "targetVariableName": "Cross/bright_pink",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "button_brand_content": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Цвет фона Primary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:11903:23842",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "White": {
+      "button_white_background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Цвет фона Primary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:18389:17058",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "button_white_content": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет фона Primary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:18389:17062",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "Tertiary": {
+      "button_tertiary_content": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет контента внутри Tertiary кнопок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2308:2803",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "Link": {
+      "button_link": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет кликабельных текстовых ссылок",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:8200:21491",
+          "com.figma.scopes": [
+            "TEXT_FILL"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    }
+  },
+  "Content": {
+    "content_primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$description": "Базовый цвет контента. Заголовки, описание, основной текст",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2526",
+        "com.figma.scopes": [
+          "ALL_FILLS"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "content_secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.6499999761581421,
+        "hex": "#2F2F45"
+      },
+      "$description": "Второстепенный цвет контента. Заголовки, описание, основной текст",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2525",
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:0c3c70a19f73ea9e86e5127d31d9670a6cdfdec3/-1:-1",
+          "targetVariableName": "Cross/space_cadet_65",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "content_tertiary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.29019609093666077,
+          0.8392156958580017
+        ],
+        "alpha": 1,
+        "hex": "#634AD6"
+      },
+      "$description": "Второстепенный цвет иконок в интерфейсе",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2794",
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+          "targetVariableName": "Cross/majorelle_blue",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Chips": {
+    "Old": {
+      "chip_base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 0.09000000357627869,
+          "hex": "#2F2F45"
+        },
+        "$description": "Базовый цвет чипов",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2308:2983",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d26f47c6bcf0fbdd9d19f83e8e09f7d334913fa3/-1:-1",
+            "targetVariableName": "Cross/space_cadet_9",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "chip_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.05098039284348488,
+            0.6000000238418579,
+            0.9647058844566345
+          ],
+          "alpha": 1,
+          "hex": "#0D99F6"
+        },
+        "$description": "Цвет активного чипа",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2308:3015",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4bb3a22263cdc7af7bfb45946d9dc83b74f68b53/-1:-1",
+            "targetVariableName": "Cross/celestial_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "New": {
+      "base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.45490196347236633,
+            0.4156862795352936,
+            0.6392157077789307
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#746AA3"
+        },
+        "$description": "Базовый цвет чипов",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:16290:19088",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+            "targetVariableName": "Cross/ultra_violet_8",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет активного чипа",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:16290:19089",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "content_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Цвет активного чипа",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:18271:18201",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "content_inactive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет активного чипа",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:18271:18202",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    }
+  },
+  "Controls (checkbox, radio)": {
+    "control_enabled": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.29019609093666077,
+          0.8392156958580017
+        ],
+        "alpha": 1,
+        "hex": "#634AD6"
+      },
+      "$description": "Применяется к бордеру",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3016",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+          "targetVariableName": "Cross/majorelle_blue",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "control_disabled": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.09000000357627869,
+        "hex": "#2F2F45"
+      },
+      "$description": "Применяется к заливке",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3017",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d26f47c6bcf0fbdd9d19f83e8e09f7d334913fa3/-1:-1",
+          "targetVariableName": "Cross/space_cadet_9",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Dividers": {
+    "divider": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.09000000357627869,
+        "hex": "#2F2F45"
+      },
+      "$description": "Базовый разделительной линии",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3023",
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "STROKE"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d26f47c6bcf0fbdd9d19f83e8e09f7d334913fa3/-1:-1",
+          "targetVariableName": "Cross/space_cadet_9",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Error": {
+    "error": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9176470637321472,
+          0.1921568661928177,
+          0.09019608050584793
+        ],
+        "alpha": 1,
+        "hex": "#EA3117"
+      },
+      "$description": "Базовый цвет для любого негативного, предупреждающего экшена в приложении (снекбар, кнопка, иконка, текст итд)",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3019",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f2daf055a0052fee67f9f909d98c15b8439f58ff/-1:-1",
+          "targetVariableName": "Cross/chili_red",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "error_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9176470637321472,
+          0.1921568661928177,
+          0.09019608050584793
+        ],
+        "alpha": 0.07000000029802322,
+        "hex": "#EA3117"
+      },
+      "$description": "Цвет фона плашек с ошибкой (например банер)",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3020",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b91ef916de5e163b6f8a51f55b5dfb28d68ce61e/-1:-1",
+          "targetVariableName": "Cross/chili_red_7",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Icons": {
+    "icon_base": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#000000"
+      },
+      "$description": "Базовый цвет иконок при добавлении в дизайн–систему",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2307:2532",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a7da5c5533c49bc5b9624d619160c2f4cdb1c587/-1:-1",
+          "targetVariableName": "Cross/black",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Info banner": {
+    "info_banner_neutral": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.45490196347236633,
+          0.4156862795352936,
+          0.6392157077789307
+        ],
+        "alpha": 0.07999999821186066,
+        "hex": "#746AA3"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:17823:60187",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+          "targetVariableName": "Cross/ultra_violet_8",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "info_banner_attention": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.5333333611488342,
+          0.06666667014360428
+        ],
+        "alpha": 0.10000000149011612,
+        "hex": "#FF8811"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:17826:62491",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:902d3e77eb7a5cf6b5409995fbdb9c997d683a08/-1:-1",
+          "targetVariableName": "Other/orange_bright_10",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "info_banner_warning": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9176470637321472,
+          0.1921568661928177,
+          0.09019608050584793
+        ],
+        "alpha": 0.07000000029802322,
+        "hex": "#EA3117"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:17826:62507",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b91ef916de5e163b6f8a51f55b5dfb28d68ce61e/-1:-1",
+          "targetVariableName": "Cross/chili_red_7",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "info_banner_success": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.37254902720451355,
+          0.8274509906768799,
+          0.2980392277240753
+        ],
+        "alpha": 0.10000000149011612,
+        "hex": "#5FD34C"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:17826:62517",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8c74eace03cee9516c844b86d0867ec29937dd4b/-1:-1",
+          "targetVariableName": "Cross/lime_green_10",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Inputs": {
+    "Primary": {
+      "input_primary_background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.45490196347236633,
+            0.4156862795352936,
+            0.6392157077789307
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#746AA3"
+        },
+        "$description": "Базовый цвет фона полей ввода и дропдаунов",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2308:2979",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+            "targetVariableName": "Cross/ultra_violet_8",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_primary_content": {
+        "$type": "color",
+        "$value": "{Content.content_primary}",
+        "$description": "Цвет контента",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7725"
+        }
+      },
+      "input_primary_placeholder": {
+        "$type": "color",
+        "$value": "{Content.content_secondary}",
+        "$description": "Цвет контента",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7729"
+        }
+      },
+      "input_primary_border_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет бордера у активного поля ввода",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2308:2981",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_primary_border_error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9176470637321472,
+            0.1921568661928177,
+            0.09019608050584793
+          ],
+          "alpha": 1,
+          "hex": "#EA3117"
+        },
+        "$description": "Цвет бордера у поля ввода в состоянии ошибки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7741",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f2daf055a0052fee67f9f909d98c15b8439f58ff/-1:-1",
+            "targetVariableName": "Cross/chili_red",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_primary_caption_base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 0.6499999761581421,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет подсказки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7042",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0c3c70a19f73ea9e86e5127d31d9670a6cdfdec3/-1:-1",
+            "targetVariableName": "Cross/space_cadet_65",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_primary_caption_error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9176470637321472,
+            0.1921568661928177,
+            0.09019608050584793
+          ],
+          "alpha": 1,
+          "hex": "#EA3117"
+        },
+        "$description": "Цвет подсказки в состоянии ошибки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7733",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f2daf055a0052fee67f9f909d98c15b8439f58ff/-1:-1",
+            "targetVariableName": "Cross/chili_red",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_primary_label_base": {
+        "$type": "color",
+        "$value": "{Content.content_secondary}",
+        "$description": "Цвет лэйбла базовый",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:11272:7375",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "input_primary_label_error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9176470637321472,
+            0.1921568661928177,
+            0.09019608050584793
+          ],
+          "alpha": 1,
+          "hex": "#EA3117"
+        },
+        "$description": "Цвет лейбла в состоянии ошибки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19936:3587",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f2daf055a0052fee67f9f909d98c15b8439f58ff/-1:-1",
+            "targetVariableName": "Cross/chili_red",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_primary_cursor": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет бегунка в поле ввода",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:3203:20468",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "Accent": {
+      "input_accent_background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Базовый цвет фона полей ввода и дропдаунов",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19756:17092",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_content": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет контента",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19756:19523",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_placeholder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 0.6499999761581421,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет контента",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19756:19527",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0c3c70a19f73ea9e86e5127d31d9670a6cdfdec3/-1:-1",
+            "targetVariableName": "Cross/space_cadet_65",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_border_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет бордера у активного поля ввода",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7030",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_border_error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9176470637321472,
+            0.1921568661928177,
+            0.09019608050584793
+          ],
+          "alpha": 1,
+          "hex": "#EA3117"
+        },
+        "$description": "Цвет бордера у поля ввода в состоянии ошибки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7745",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f2daf055a0052fee67f9f909d98c15b8439f58ff/-1:-1",
+            "targetVariableName": "Cross/chili_red",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_caption_base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Цвет подсказки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19756:19485",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_caption_error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Цвет подсказки в состоянии ошибки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7737",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_label_base": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 0.6499999761581421,
+          "hex": "#2F2F45"
+        },
+        "$description": "Цвет лэйбла базовый",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19936:3591",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0c3c70a19f73ea9e86e5127d31d9670a6cdfdec3/-1:-1",
+            "targetVariableName": "Cross/space_cadet_65",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_label_error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9176470637321472,
+            0.1921568661928177,
+            0.09019608050584793
+          ],
+          "alpha": 1,
+          "hex": "#EA3117"
+        },
+        "$description": "Цвет лейбла в состоянии ошибки",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19936:3604",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f2daf055a0052fee67f9f909d98c15b8439f58ff/-1:-1",
+            "targetVariableName": "Cross/chili_red",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "input_accent_cursor": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.38823530077934265,
+            0.29019609093666077,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#634AD6"
+        },
+        "$description": "Цвет бегунка в поле ввода",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:19926:7034",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+            "targetVariableName": "Cross/majorelle_blue",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    }
+  },
+  "Lable": {
+    "black_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$description": "Цвет фона ячейки таймера",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:18308:20503",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "black_content": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Цвет фона ячейки таймера",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:18308:20505",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "white_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Цвет фона ячейки таймера",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:18308:20504",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "white_content": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$description": "Цвет фона ячейки таймера",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:18308:20507",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Overlay": {
+    "overlay_layer": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.6000000238418579,
+        "hex": "#2F2F45"
+      },
+      "$description": "Для затемнения фона при раскрытии боттом-шита, модального окна итд",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:3237:20617",
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:26fd36a3e5318c2d40315b8ef10d541e7cb6f3c1/-1:-1",
+          "targetVariableName": "Cross/space_cadet_60",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Placeholder": {
+    "error_state": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.15000000596046448,
+        "hex": "#000000"
+      },
+      "$description": "Используем на экранах с преимущественно карточным контентом",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:21658:2126",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9a0854d0b47f8ddc4cf45a59d705172c68fafc10/-1:-1",
+          "targetVariableName": "Cross/black_15",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Progress bar": {
+    "content": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Текст внутри прогресс баров",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:17787:9723",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "track": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.20000000298023224,
+        "hex": "#2F2F45"
+      },
+      "$description": "Незаполненная шкала прогресса",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:5688:34292",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2dbc972c05ecb87280d260663a71ec66fe136b01/-1:-1",
+          "targetVariableName": "Cross/space_cadet_20",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "indicator": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.37254902720451355,
+          0.8274509906768799,
+          0.2980392277240753
+        ],
+        "alpha": 1,
+        "hex": "#5FD34C"
+      },
+      "$description": "Заполненная шкала прогресса",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6002:101",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:76cd9ff74706a9517d518bdb87c85f12bd5e1cef/-1:-1",
+          "targetVariableName": "Cross/lime_green",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Switchers": {
+    "switcher_on": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.29019609093666077,
+          0.8392156958580017
+        ],
+        "alpha": 1,
+        "hex": "#634AD6"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:3209:20469",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+          "targetVariableName": "Cross/majorelle_blue",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "ios_switcher_off": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.25,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:3209:20470",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2a9481c3e4f20130c4edc2edb5fc0ec3d8e8e7d7/-1:-1",
+          "targetVariableName": "Cross/space_cadet_25",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "android_switcher_point_off": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.6000000238418579,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:12751:11669",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:26fd36a3e5318c2d40315b8ef10d541e7cb6f3c1/-1:-1",
+          "targetVariableName": "Cross/space_cadet_60",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "android_switcher_background_off": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.09000000357627869,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:12751:11684",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d26f47c6bcf0fbdd9d19f83e8e09f7d334913fa3/-1:-1",
+          "targetVariableName": "Cross/space_cadet_9",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "switcher_point": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:3209:20471",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Spinner": {
+    "spinner": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.29019609093666077,
+          0.8392156958580017
+        ],
+        "alpha": 1,
+        "hex": "#634AD6"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:5689:34294",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f77deacfffb84ce0ff4e437f48395458d246dc37/-1:-1",
+          "targetVariableName": "Cross/majorelle_blue",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Score Label View (teacher)": {
+    "scorelabel_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.45490196347236633,
+          0.4156862795352936,
+          0.6392157077789307
+        ],
+        "alpha": 0.07999999821186066,
+        "hex": "#746AA3"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:8864:37761",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+          "targetVariableName": "Cross/ultra_violet_8",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "scorelabel_content": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:12751:28858",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "scorelabel_background_total": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:11601:33827",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "scorelabel_content_total": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:12751:28859",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Slider switcher": {
+    "page_control_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.45490196347236633,
+          0.4156862795352936,
+          0.6392157077789307
+        ],
+        "alpha": 0.07999999821186066,
+        "hex": "#746AA3"
+      },
+      "$description": "В iOS к бэкграунду применяется блюр",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:14148:8019",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+          "targetVariableName": "Cross/ultra_violet_8",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "page_control_active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:14148:8018",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "page_control_inactive": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.4000000059604645,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:14148:4168",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:84780f3e2cf149993e920e127f2ce93324c9ba23/-1:-1",
+          "targetVariableName": "Cross/space_cadet_40",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Snackbar": {
+    "snackbar_success": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0470588244497776,
+          0.0941176488995552,
+          0.12941177189350128
+        ],
+        "alpha": 0.949999988079071,
+        "hex": "#0C1821"
+      },
+      "$description": "цвет фона для снекбара, уведомляющего об успешном действий",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2863:19356",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7aec7f5c492b486e75a66e93872b33c6ec6f2918/-1:-1",
+          "targetVariableName": "Other/rich_black_95",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Succsess": {
+    "succsess": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.37254902720451355,
+          0.8274509906768799,
+          0.2980392277240753
+        ],
+        "alpha": 1,
+        "hex": "#5FD34C"
+      },
+      "$description": "Системный цвет успешных действий (статус, прогресс бар, текст сообщения об успехе)",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3021",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:76cd9ff74706a9517d518bdb87c85f12bd5e1cef/-1:-1",
+          "targetVariableName": "Cross/lime_green",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "succsess_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.37254902720451355,
+          0.8274509906768799,
+          0.2980392277240753
+        ],
+        "alpha": 0.10000000149011612,
+        "hex": "#5FD34C"
+      },
+      "$description": "Цвет фона плашек с успехом (например банер)",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:2308:3022",
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8c74eace03cee9516c844b86d0867ec29937dd4b/-1:-1",
+          "targetVariableName": "Cross/lime_green_10",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Tabs": {
+    "New": {
+      "tab_background_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:13350:24048",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "tab_background_inactive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.45490196347236633,
+            0.4156862795352936,
+            0.6392157077789307
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#746AA3"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:13350:24052",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:44acadbae80f6c2d9ef94425a5349839de1cb951/-1:-1",
+            "targetVariableName": "Cross/ultra_violet_8",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "tab_content_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:13350:24053",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "tab_content_inactive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 0.6499999761581421,
+          "hex": "#2F2F45"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:13350:24054",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0c3c70a19f73ea9e86e5127d31d9670a6cdfdec3/-1:-1",
+            "targetVariableName": "Cross/space_cadet_65",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    },
+    "Old": {
+      "tab_background_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2863:19357",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+            "targetVariableName": "Cross/white",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "tab_background_inactive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 0.09000000357627869,
+          "hex": "#2F2F45"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:12751:11739",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d26f47c6bcf0fbdd9d19f83e8e09f7d334913fa3/-1:-1",
+            "targetVariableName": "Cross/space_cadet_9",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "tab_content_active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:12751:11738",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      },
+      "tab_content_inactive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18431372940540314,
+            0.18431372940540314,
+            0.2705882489681244
+          ],
+          "alpha": 1,
+          "hex": "#2F2F45"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:2863:19358",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+            "targetVariableName": "Cross/space_cadet",
+            "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+            "targetVariableSetName": "Core colors"
+          }
+        }
+      }
+    }
+  },
+  "Tabar-Navbar": {
+    "active_border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2980392277240753,
+          0.7882353067398071,
+          0.7607843279838562
+        ],
+        "alpha": 1,
+        "hex": "#4CC9C2"
+      },
+      "$description": "Цвет обводки активного раздела в таб баре",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:15937:39554",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:6c06e4211ad84c4b57d5ae062a81de83fa5ba97a/-1:-1",
+          "targetVariableName": "Cross/robin_egg_blue",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "active_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2980392277240753,
+          0.7882353067398071,
+          0.7607843279838562
+        ],
+        "alpha": 0.15000000596046448,
+        "hex": "#4CC9C2"
+      },
+      "$description": "Цвет фона активного раздела в таб баре",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:15937:39553",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9b05772c07482d9dbfc19395617d432246d17cc1/-1:-1",
+          "targetVariableName": "Cross/robin_egg_blue_15",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "inactive": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.6000000238418579,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:18757:29267",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:26fd36a3e5318c2d40315b8ef10d541e7cb6f3c1/-1:-1",
+          "targetVariableName": "Cross/space_cadet_60",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Timer": {
+    "timer_item_bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.09000000357627869,
+        "hex": "#2F2F45"
+      },
+      "$description": "Цвет фона ячейки таймера",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:17300:4581",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:d26f47c6bcf0fbdd9d19f83e8e09f7d334913fa3/-1:-1",
+          "targetVariableName": "Cross/space_cadet_9",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Tooltip": {
+    "tooltip_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 1,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:20554:35062",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:addfac5da42503eb7773f986d376c7892ae2f209/-1:-1",
+          "targetVariableName": "Cross/space_cadet",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "tooltip_title": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:20554:35063",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "tooltip_subtitle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:20554:35064",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "Adv tag": {
+    "adv_tag_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18431372940540314,
+          0.18431372940540314,
+          0.2705882489681244
+        ],
+        "alpha": 0.25,
+        "hex": "#2F2F45"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:20557:17657",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2a9481c3e4f20130c4edc2edb5fc0ec3d8e8e7d7/-1:-1",
+          "targetVariableName": "Cross/space_cadet_25",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "adv_tag_text": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:20557:17658",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "System": {
+    "tabbar_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Используем на экранах с преимущественно карточным контентом",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:22078:53800",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fcbc4d5c75e065e02a8fe8126449c08716aa9fc6/-1:-1",
+          "targetVariableName": "Cross/white",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "homebar_android_background": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.8500000238418579,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Используем на экранах с преимущественно карточным контентом",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:21658:1830",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7f5c42b357512a5887ea22bb2cf331ef49919d2e/-1:-1",
+          "targetVariableName": "Cross/white_85",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "homebar_android_buttons": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.4000000059604645,
+        "hex": "#000000"
+      },
+      "$description": "Используем на экранах с преимущественно карточным контентом",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:21984:19721",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:88bb3e5fc3161154ee2046f65fef5813e83ff955/-1:-1",
+          "targetVariableName": "Cross/black_40",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    },
+    "tabbar_ios_home_indicator": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#000000"
+      },
+      "$description": "Используем на экранах с преимущественно карточным контентом",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:21984:19838",
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a7da5c5533c49bc5b9624d619160c2f4cdb1c587/-1:-1",
+          "targetVariableName": "Cross/black",
+          "targetVariableSetId": "VariableCollectionId:f46f80ecc6fb7868a892c15a3a43ed8ca9d5f432/-1:-1",
+          "targetVariableSetName": "Core colors"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Light mode"
+  }
+}
