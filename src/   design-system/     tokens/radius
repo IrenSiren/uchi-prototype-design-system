@@ -1,0 +1,150 @@
+{
+  "0": {
+    "$type": "number",
+    "$value": 0,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:8063:37776",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "100 (full)": {
+    "$type": "number",
+    "$value": 1000,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2087",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "56 6xl": {
+    "$type": "number",
+    "$value": 56,
+    "$description": "Стиль скругления для внешних блоков и боттом-шитов",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:6784:2360",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "48 5xl": {
+    "$type": "number",
+    "$value": 48,
+    "$description": "Стиль скругления для внешних блоков и боттом-шитов",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:18545:24112",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "40 4xl": {
+    "$type": "number",
+    "$value": 40,
+    "$description": "Стиль скругления для внешних блоков и боттом-шитов",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:18545:24108",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "32 3xl": {
+    "$type": "number",
+    "$value": 32,
+    "$description": "Стиль скругления для внешних блоков и боттом-шитов",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:18545:24104",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "24 (>=63) 2xl": {
+    "$type": "number",
+    "$value": 24,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2088",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "20 (52-62) xl": {
+    "$type": "number",
+    "$value": 20,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2089",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "17 (44-51) l": {
+    "$type": "number",
+    "$value": 17,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2090",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "14 (36-43) m": {
+    "$type": "number",
+    "$value": 14,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2091",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "12 (28-35) s": {
+    "$type": "number",
+    "$value": 12,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2092",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "9 (20-27) xs": {
+    "$type": "number",
+    "$value": 9,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2093",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "6 (1-19) 2xs": {
+    "$type": "number",
+    "$value": 6,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2306:2094",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "Скругление": {
+    "$type": "number",
+    "$value": 0,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:12251:12095",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.type": "boolean"
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Dimension"
+  }
+}
